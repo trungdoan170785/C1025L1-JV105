@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Heading 1</h1>
+<div id="result"></div>
+<!--Cách 1: Viết trực tiếp trong thẻ HTML-->
+<input type="button" value="Click Me" onclick="alert('Hello')">
+
+<!--Cách 2: Viết vào cặp thẻ <script>-->
+<script>
+    // alert("Tôi là alert!!");
+    // confirm("Tôi là confirm!!");
+    // prompt("Tôi là prompt!!");
+
+    // console.log('Tôi là console.log()');
+    // document.write("<h1>Tôi là document.write</h1>")
+    // document.writeln("Tôi là document.writeln")
+    // document.getElementById("result").innerText = "<h1>Tôi là innerText</h1>";
+    document.getElementById("result").innerHTML = "<h1>Tôi là innerText</h1>";
+</script>
+
+<!--Cách 3: Nhúng 1 file js ở bên ngoài thông qua thẻ script-->
+<!--<script src="./myJS.js"></script>-->
+
+</body>
+</html>
+
